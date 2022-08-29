@@ -5,25 +5,20 @@ products.map((item, index) => {
 
    let key = productList.setAttribute("key", index)
    let img = productList.querySelector('.product-image').src = item.img
-   let description = productList.querySelector('.product-description').innerHTML = `Chinelo ${item.description}`
-   let price = productList.querySelector('.product-price').innerHTML = `<small>A partir de</small>\n<h4>R$${item.price} à vista</h4>`
-
-
+   let description = productList.querySelector('.product-description').innerHTML = `<small>Descrição</small>\n<h4>${item.description}</h4>`
+   let price = productList.querySelector('.product-price').innerHTML = `<small>A partir de</small>\n<h3>R$${item.price} à vista</h3>`
 
 
    // Vai p/ page produto, envia dados para localStorage
    productList.addEventListener('click', (el) => {
       el.preventDefault()
-      window.location.href = './page-product.html'
+      window.location.href = '../pages/details-product.html'
 
       localStorage.setItem("key", index)
       localStorage.setItem("img", img)
       localStorage.setItem("description", description)
       localStorage.setItem("price", price)
    })
-
-
-
 
    /* Cart */
    // productList.addEventListener("click", (e) => {
@@ -40,9 +35,6 @@ products.map((item, index) => {
    //     select('.cart-product-price').innerHTML = `À vista R$${products[key].price}`
    // })
 
-
-
-
    let btnCart = document.querySelector('.btn-cart').addEventListener("click", openCart)
    let btnCloseCart = document.querySelector('.close-cart').addEventListener("click", closeCart)
    let continueBuy = document.querySelector('.continue-buy').addEventListener("click", closeCart)
@@ -56,6 +48,7 @@ products.map((item, index) => {
          cart.classList.add('show-cart')
       }
    }
+
    function closeCart(e) {
       e.preventDefault()
       let cart = select('.cart')
@@ -65,6 +58,4 @@ products.map((item, index) => {
          cart.classList.add('hide-cart')
       }
    }
-
-
 })
