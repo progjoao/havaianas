@@ -1,0 +1,70 @@
+products.map((item, index) => {
+
+   let productList = document.querySelector('.product').cloneNode(true)
+   document.querySelector('.deposit-product-cloned').append(productList)
+
+   let key = productList.setAttribute("key", index)
+   let img = productList.querySelector('.product-image').src = item.img
+   let description = productList.querySelector('.product-description').innerHTML = `Chinelo ${item.description}`
+   let price = productList.querySelector('.product-price').innerHTML = `<small>A partir de</small>\n<h4>R$${item.price} à vista</h4>`
+
+
+
+
+   // Vai p/ page produto, envia dados para localStorage
+   productList.addEventListener('click', (el) => {
+      el.preventDefault()
+      window.location.href = './page-product.html'
+
+      localStorage.setItem("key", index)
+      localStorage.setItem("img", img)
+      localStorage.setItem("description", description)
+      localStorage.setItem("price", price)
+   })
+
+
+
+
+   /* Cart */
+   // productList.addEventListener("click", (e) => {
+   //     e.preventDefault()
+   //     openCart(e)
+
+   //     let key = productList.getAttribute('key')
+   //     console.log(key)
+
+   //     let contentCart = document.querySelector('.cart-body')
+
+   //     select('.cart-product-img').src = products[key].img
+   //     select('.cart-product-description').innerHTML = products[key].description
+   //     select('.cart-product-price').innerHTML = `À vista R$${products[key].price}`
+   // })
+
+
+
+
+   let btnCart = document.querySelector('.btn-cart').addEventListener("click", openCart)
+   let btnCloseCart = document.querySelector('.close-cart').addEventListener("click", closeCart)
+   let continueBuy = document.querySelector('.continue-buy').addEventListener("click", closeCart)
+
+   function openCart(e) {
+      e.preventDefault()
+      let cart = select('.cart')
+
+      if (cart.classList.contains('hide-cart')) {
+         cart.classList.remove('hide-cart')
+         cart.classList.add('show-cart')
+      }
+   }
+   function closeCart(e) {
+      e.preventDefault()
+      let cart = select('.cart')
+
+      if (cart.classList.contains('show-cart')) {
+         cart.classList.remove('show-cart')
+         cart.classList.add('hide-cart')
+      }
+   }
+
+
+})
