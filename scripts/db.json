@@ -77,6 +77,29 @@
          "price": 190.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       }
+   ],
+
+   "releaseProducts": [
+      {
+         "id": 1,
+         "description": "rosa",
+         "img":"./assets/images/produtos/rosa.png",
+         "price":150.00,
+         "number": ["37", "38", "39", "40", "41", "42"]
+      },
+      {
+         "id": 2,
+         "description": "rosa e preto",
+         "img":"./assets/images/produtos/rosa-preto.png",
+         "price":150.00,
+         "number": ["37", "38", "39", "40", "41", "42"]
+      },
+      {
+         "id": 3,
+         "description": "verde agua",
+         "img":"./assets/images/produtos/verde-agua.png",
+         "price":150.00,
+         "number": ["37", "38", "39", "40", "41", "42"]
+      }
    ]
 }
-
