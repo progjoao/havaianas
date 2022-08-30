@@ -5,8 +5,8 @@ products.map((item, index) => {
 
    let key = productList.setAttribute("key", index)
    let img = productList.querySelector('.product-image').src = item.img
-   let description = productList.querySelector('.product-description').innerHTML = `<small>Descrição</small>\n<h4>${item.description}</h4>`
-   let price = productList.querySelector('.product-price').innerHTML = `<small>A partir de</small>\n<h3>R$${item.price} à vista</h3>`
+   let description = productList.querySelector('.product-description').innerHTML = `<small>Descrição</small>\n<h5>${item.description}</h5>`
+   let price = productList.querySelector('.product-price').innerHTML = `<small>A partir de</small>\n<h4>R$${item.price} à vista</h4>`
 
 
    // Vai p/ page produto, envia dados para localStorage

@@ -77,17 +77,17 @@ let products = [
       img:'../assets/images/products/preto-vermelho.png',
       price:190.00,
       number: ['37', '38', '39', '40', '41', '42']
-   }
+   },
+   {
+      id: 12,
+      description:'rosa',
+      img:'../assets/images/products/rosa.png',
+      price:150.00,
+      number: ['37', '38', '39', '40', '41', '42']
+   },
 ];
 
 let releaseProducts = [
-   {
-      id: 12,
-      name:'rosa',
-      img:'../assets/images/products/rosa.png',
-      price:150.00,
-      number: ['37', '38', '39', '40', '41', '42'],
-      description: 'Oakley rosa original importado da fabrica da Oakley em Foothill Ranch'},
    {
       id: 13,
       name:'rosa preto',

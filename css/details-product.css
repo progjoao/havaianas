@@ -121,6 +121,12 @@ main {
 	justify-content: space-evenly;
 }
 
+/* Reestruturar html de details-product p/ aplicar o main defautl */
+/* main {
+	margin: 11em auto;
+	max-width: 1200px;
+} */
+
 img {
    width: 20em;
 }
