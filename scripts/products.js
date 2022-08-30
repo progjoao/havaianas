@@ -9,7 +9,7 @@ products.map((item, index) => {
    let price = productList.querySelector('.product-price').innerHTML = `<small>A partir de</small>\n<h4>R$${item.price} à vista</h4>`
 
 
-   // Vai p/ page produto, envia dados para localStorage
+   // Vai p/ page de detalhes do produto, envia dados para localStorage
    productList.addEventListener('click', (el) => {
       el.preventDefault()
       window.location.href = '../pages/details-product.html'

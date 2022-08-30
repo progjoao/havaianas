@@ -3,16 +3,16 @@
 
 <head>
 	<meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <link rel="icon" type="image/x-icon" href="/assets/images/products/azul-branco.png">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="/assets/images/products/azul-branco.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="../css/products.css">
 
-   <title>Havaianas</title>
+	<title>Havaianas</title>
 </head>
 
 <body>
@@ -20,11 +20,21 @@
 	<header>
 		<nav>
 			<ul>
-				<h1>Havaianas</h1>
-				<div>
-					<li><a href="#produtos">Produtos</a></li>
-					<li><a href="#lancamentos">Lançamentos</a></li>
-					<li><a class="btn-cart" href="">Carrinho</a></li>
+                <a href="./products.html">
+                    <h1>Havaianas</h1>
+                </a>
+				<div class="options-header">
+					<li>
+						<a href="./products.html">Produtos</a>
+					</li>
+					<li>
+						<a href="#lancamentos">Lançamentos</a>
+					</li>
+					<li>
+						<a class="btn-cart" href="./shopping-cart.html">
+							<img src="/assets/icons/shopping-cart.png" class="shopping-cart" alt="shopping cart">
+						</a>
+					</li>
 				</div>
 			</ul>
 		</nav>
@@ -74,7 +84,9 @@
 	</a>
 
 	<script src="../scripts/database.js"></script>
-	<script src="../scripts/products.js"></script>
-	<script src="../scripts/details-product.js"></script>
+    <script src="../scripts/products.js"></script>
+    <script src="../scripts/details-product.js"></script>
+    <script src="../scripts/shopping-cart.js"></script>
 </body>
+
 </html>

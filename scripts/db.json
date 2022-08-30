@@ -2,77 +2,77 @@
    "productList": [
       {
          "id": 1,
-         "description": "amarelo",
+         "description": "Amarelo",
          "img": "./assets/images/produtos/amarelo.png",
          "price": 100.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 2,
-         "description": "azul bb",
+         "description": "azul bebê",
          "img":"./assets/images/produtos/azul-bb.png",
          "price": 110.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 3,
-         "description":"azul e branco",
+         "description":"Azul e Branco",
          "img":"./assets/images/produtos/azul-branco.png",
          "price": 120.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 4,
-         "description":"azul preto",
+         "description":"Azul Preto",
          "img":"./assets/images/produtos/azul-preto.png",
          "price": 130.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 5,
-         "description":"branco",
+         "description":"Branco",
          "img":"./assets/images/produtos/branco.png",
          "price": 140.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 6,
-         "description":"marron roxo",
+         "description":"Marron e Roxo",
          "img":"./assets/images/produtos/marron-roxo.png",
          "price": 150.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 7,
-         "description":"oceano preto",
+         "description":"Oceano Preto",
          "img":"./assets/images/produtos/oceano-preto.png",
          "price": 160.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 8,
-         "description":"preto",
+         "description":"Preto",
          "img":"./assets/images/produtos/preto.png",
          "price": 150.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 9,
-         "description":"preto branco",
+         "description":"Preto e Branco",
          "img":"./assets/images/produtos/preto-branco.png",
          "price": 170.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 10,
-         "description":"preto caramelo",
+         "description":"Preto e Caramelo",
          "img":"./assets/images/produtos/preto-caramelo.png",
          "price": 180.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 11,
-         "description":"preto vermelho",
+         "description":"Preto e Vermelho",
          "img":"./assets/images/produtos/preto-vermelho.png",
          "price": 190.00,
          "number": ["37", "38", "39", "40", "41", "42"]
@@ -82,21 +82,21 @@
    "releaseProducts": [
       {
          "id": 1,
-         "description": "rosa",
+         "description": "Rosa",
          "img":"./assets/images/produtos/rosa.png",
          "price":150.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 2,
-         "description": "rosa e preto",
+         "description": "Rosa e Preto",
          "img":"./assets/images/produtos/rosa-preto.png",
          "price":150.00,
          "number": ["37", "38", "39", "40", "41", "42"]
       },
       {
          "id": 3,
-         "description": "verde agua",
+         "description": "Verde Água",
          "img":"./assets/images/produtos/verde-agua.png",
          "price":150.00,
          "number": ["37", "38", "39", "40", "41", "42"]

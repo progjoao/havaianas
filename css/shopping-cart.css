@@ -137,8 +137,16 @@ main {
 	max-width: 1200px;
 } */
 
-img {
+/* img {
   width: 20em;
+} */
+
+.sum{
+  width: 1em;
+}
+
+.subtation{
+  width: 1em;
 }
 
 .area-products {
