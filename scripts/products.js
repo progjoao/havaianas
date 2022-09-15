@@ -20,6 +20,26 @@ products.map((item, index) => {
       localStorage.setItem("price", price)
    })
 
+   let btnCart = document.querySelector('.btn-cart')
+   btnCart.addEventListener("click", (el) => {
+      el.preventDefault()
+      window.location.href = '../pages/shopping-cart.html'
+   })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    /* Cart */
    // productList.addEventListener("click", (e) => {
    //     e.preventDefault()
@@ -35,27 +55,27 @@ products.map((item, index) => {
    //     select('.cart-product-price').innerHTML = `À vista R$${products[key].price}`
    // })
 
-   let btnCart = document.querySelector('.btn-cart').addEventListener("click", openCart)
-   let btnCloseCart = document.querySelector('.close-cart').addEventListener("click", closeCart)
-   let continueBuy = document.querySelector('.continue-buy').addEventListener("click", closeCart)
+   // let btnCart = document.querySelector('.btn-cart').addEventListener("click", openCart)
+   // let btnCloseCart = document.querySelector('.close-cart').addEventListener("click", closeCart)
+   // let continueBuy = document.querySelector('.continue-buy').addEventListener("click", closeCart)
 
-   function openCart(e) {
-      e.preventDefault()
-      let cart = select('.cart')
+   // function openCart(e) {
+   //    e.preventDefault()
+   //    let cart = select('.cart')
 
-      if (cart.classList.contains('hide-cart')) {
-         cart.classList.remove('hide-cart')
-         cart.classList.add('show-cart')
-      }
-   }
+   //    if (cart.classList.contains('hide-cart')) {
+   //       cart.classList.remove('hide-cart')
+   //       cart.classList.add('show-cart')
+   //    }
+   // }
 
-   function closeCart(e) {
-      e.preventDefault()
-      let cart = select('.cart')
+   // function closeCart(e) {
+   //    e.preventDefault()
+   //    let cart = select('.cart')
 
-      if (cart.classList.contains('show-cart')) {
-         cart.classList.remove('show-cart')
-         cart.classList.add('hide-cart')
-      }
-   }
+   //    if (cart.classList.contains('show-cart')) {
+   //       cart.classList.remove('show-cart')
+   //       cart.classList.add('hide-cart')
+   //    }
+   // }
 })
