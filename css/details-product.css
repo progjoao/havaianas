@@ -150,3 +150,24 @@ img {
 .page-product-description {
   margin-bottom: 1.5em;
 }
+
+.btn-add-cart{
+  background-color: #fff;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.6em 1em;
+  color: #07c35b;
+  font-weight: 600;
+  line-height: 15px;
+  font-size: 15px;
+}
+
+.btn-add-cart:hover{
+  background-color: #07c35b;
+  color: #fff;
+}
+
+.div-add-cart{
+  margin-top: 2em;
+}
